@@ -1,0 +1,14 @@
+Initial commit: Tri-Surv v1.0
+
+- Tri-modal survival model (Pathomics + Genomics + Clinical)
+- VIB bottleneck + cVAE imputation + Cross-Attention fusion
+- Full SIT-Loss implementation (HSIC, SurvNCE, SlicedWasserstein)
+- 5-fold cross-validation training pipeline
+- TensorBoard logging, Early Stopping, Gradient Accumulation
+- Ablation study support (--ablation flag)
+
+Modified files:
+- models/tri_surv.py: Full architecture refactor
+- models/sit_loss.py: Numerical stability fixes
+- main_trisurv.py: Training engine with all improvements
+- utils/options.py: Extended CLI parameters
