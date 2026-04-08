@@ -1,0 +1,36 @@
+# Git Large File Storage
+*.pth
+*.pth.tar
+*.pt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Data
+*.zip
+*.h5
+*.hdf5
+
+# Logs & results
+DeReF/
+results_trisurv/
+events.out.tfevents.*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+*.ipynb_checkpoints/
